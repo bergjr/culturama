@@ -1,10 +1,9 @@
 .menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-around;
+    row-gap: .5rem;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .menu__item:nth-child(1) {

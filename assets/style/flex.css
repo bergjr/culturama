@@ -48,6 +48,18 @@
     max-width: 400px;
 }
 
+.rodape {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.rodape__logo {
+    align-self: end;
+}
+
 @media screen and (min-width: 720px) {
     .menu {
         column-gap: 4em;
@@ -60,7 +72,8 @@
 
     .categorias__lista {
         flex-wrap: wrap;
-        column-gap: .5rem;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
     }    
 
     .destaques__barra {
@@ -78,6 +91,12 @@
 
     .agenda__lista {
         justify-content: flex-end;
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+    }
+
+    .rodape {
+        gap:5%;
     }
 
     
@@ -110,5 +129,9 @@
 
     .destaques {
         gap: 0;
-    }  
+    } 
+
+    .agenda__item {
+        max-width: 450px;   
+    }   
 }    

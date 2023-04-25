@@ -50,7 +50,7 @@ img:hover {
     font-family: var(--fonte-secundaria);
     font-size: 16px;
     height: 258px;
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 1rem 1.5rem;
     white-space: nowrap;
 }
 
@@ -367,7 +367,7 @@ img:hover {
 
     /* Header */
     .menu {
-        height: 230px;
+        height: 217px;
     }
 
     .menu__titulo {

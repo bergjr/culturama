@@ -1,8 +1,8 @@
 .menu {
     display: flex;
     flex-wrap: wrap;
-    /* row-gap: .5rem; */
-    justify-content: space-between;
+    row-gap: .5rem;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -62,7 +62,8 @@
 
 @media screen and (min-width: 720px) {
     .menu {
-        column-gap: 4em;
+        column-gap: 5rem;
+        justify-content: center;
     }
 
     .menu__item:nth-child(1) {
